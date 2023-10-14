@@ -1,0 +1,42 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CarTester2",
+            "request": "launch",
+            "mainClass": "CarTester2",
+            "projectName": "JAVA_5a9722ab"
+        },
+        {
+            "type": "java",
+            "name": "CarTester1",
+            "request": "launch",
+            "mainClass": "CarTester1",
+            "projectName": "JAVA_5a9722ab"
+        },
+        {
+            "type": "java",
+            "name": "Car",
+            "request": "launch",
+            "mainClass": "Car",
+            "projectName": "JAVA_5a9722ab"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "JAVA_5a9722ab"
+        }
+    ]
+}
