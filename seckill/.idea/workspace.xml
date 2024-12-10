@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f9eaae76-02d4-4b5c-a6d4-a52e254ce795" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ApifoxUploaderProjectSetting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/baizhi/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/baizhi/HTTP请求.jmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/baizhi/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/baizhi/controller/EventController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/baizhi/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/baizhi/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/baizhi/mapper/EventMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/baizhi/mapper/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/baizhi/mapper/ProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/baizhi/model/SeckillEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/baizhi/model/SeckillOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/baizhi/model/SeckillProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/baizhi/service/EventService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/baizhi/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/baizhi/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/baizhi/service/impl/EventServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/baizhi/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/baizhi/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/baizhi/users.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/baizhi/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/baizhi/RedisDemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../softtest/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../softtest/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../softtest/.idea/ApifoxUploaderProjectSetting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../softtest/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../softtest/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../softtest/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../softtest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../softtest/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../softtest/src/main/java/org/baizhi/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../softtest/src/main/java/org/baizhi/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../softtest/src/test/java/org/baizhi/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../softtest/src/test/java/org/baizhi/JunitDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../softtest/src/test/java/org/baizhi/TriangleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test4/test4/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test4/test4/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test4/test4/.idea/ApifoxUploaderProjectSetting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test4/test4/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test4/test4/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test4/test4/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test4/test4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test4/test4/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test4/test4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test4/test4/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test4/test4/src/main/java/org/baizhi/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test4/test4/src/main/java/org/baizhi/DataFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test4/test4/src/main/java/org/baizhi/controller/ClassController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test4/test4/src/main/java/org/baizhi/controller/ElectiveController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test4/test4/src/main/java/org/baizhi/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test4/test4/src/main/java/org/baizhi/controller/SubjectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test4/test4/src/main/java/org/baizhi/mapper/ClassMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test4/test4/src/main/java/org/baizhi/mapper/ElectiveMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test4/test4/src/main/java/org/baizhi/mapper/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test4/test4/src/main/java/org/baizhi/mapper/SubjectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test4/test4/src/main/java/org/baizhi/model/Class.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test4/test4/src/main/java/org/baizhi/model/Elective.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test4/test4/src/main/java/org/baizhi/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test4/test4/src/main/java/org/baizhi/model/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test4/test4/src/main/java/org/baizhi/service/ClassService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test4/test4/src/main/java/org/baizhi/service/ElectiveService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test4/test4/src/main/java/org/baizhi/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test4/test4/src/main/java/org/baizhi/service/SubjectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test4/test4/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test4/test4/src/test/java/org/baizhi/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../article/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/src/main/java/org/itheima/dao/CommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../article/src/main/java/org/itheima/dao/CommentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/src/main/java/org/itheima/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../article/src/main/java/org/itheima/service/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article/src/main/java/org/itheima/service/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../article/src/main/java/org/itheima/service/controller/CommentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../big-event/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../big-event/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../big-event/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../big-event/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../big-event/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../big-event/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../big-event/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../big-event/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../big-event/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../big-event/src/main/java/org/itheima/BigEventApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../big-event/src/main/java/org/itheima/anno/State.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../big-event/src/main/java/org/itheima/config/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../big-event/src/main/java/org/itheima/controller/ArticleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../big-event/src/main/java/org/itheima/controller/CategoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../big-event/src/main/java/org/itheima/controller/FileUploadController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../big-event/src/main/java/org/itheima/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../big-event/src/main/java/org/itheima/exception/ClobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../big-event/src/main/java/org/itheima/interceptors/LoginInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../big-event/src/main/java/org/itheima/mapper/ArticleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../big-event/src/main/java/org/itheima/mapper/CategoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../big-event/src/main/java/org/itheima/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../big-event/src/main/java/org/itheima/pojo/Article.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../big-event/src/main/java/org/itheima/pojo/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../big-event/src/main/java/org/itheima/pojo/PageBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../big-event/src/main/java/org/itheima/pojo/Result.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../big-event/src/main/java/org/itheima/pojo/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../big-event/src/main/java/org/itheima/service/ArticleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../big-event/src/main/java/org/itheima/service/CategoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../big-event/src/main/java/org/itheima/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../big-event/src/main/java/org/itheima/service/impl/ArticleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../big-event/src/main/java/org/itheima/service/impl/CategoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../big-event/src/main/java/org/itheima/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../big-event/src/main/java/org/itheima/utils/AliOssUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../big-event/src/main/java/org/itheima/utils/JwtUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../big-event/src/main/java/org/itheima/utils/Md5Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../big-event/src/main/java/org/itheima/utils/ThreadLocalUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../big-event/src/main/java/org/itheima/validation/StateValidation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../big-event/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../big-event/src/main/resources/org/itheima/mapper/ArticleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../big-event/src/test/java/org/itheima/RedisTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../big-event/src/test/java/org/itheima/ThreadLocalTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;baizhi613&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/baizhi613/JAVA.git&quot;,
+    &quot;accountId&quot;: &quot;5c5cfa27-50ee-4ebb-a142-e0d0bddc5ae9&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2pjssBE5yenWmUitJbJx85opBIW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.RedisDemoApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.seckill [clean].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.App.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/code/JAVA/seckill/src/main/java/org/baizhi&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preference.NewJMeterHomeConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;,
+      &quot;redis&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\JAVA\seckill\src\main\java\org\baizhi" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.App">
+    <configuration name="RedisDemoApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seckill" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.baizhi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.baizhi" />
+      <option name="MAIN_CLASS_NAME" value="org.baizhi.RedisDemoApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="seckill" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.baizhi.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RedisDemoApplicationTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.419" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.419" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="f9eaae76-02d4-4b5c-a6d4-a52e254ce795" name="更改" comment="" />
+      <created>1733291024427</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733291024427</updated>
+      <workItem from="1733291025771" duration="4044000" />
+      <workItem from="1733363107813" duration="2208000" />
+      <workItem from="1733365333480" duration="5471000" />
+      <workItem from="1733376620284" duration="5311000" />
+      <workItem from="1733382420937" duration="4029000" />
+      <workItem from="1733386556078" duration="3386000" />
+      <workItem from="1733394071693" duration="5110000" />
+      <workItem from="1733486438802" duration="1834000" />
+      <workItem from="1733488304046" duration="41000" />
+      <workItem from="1733545583025" duration="1742000" />
+      <workItem from="1733557848623" duration="204000" />
+      <workItem from="1733566521777" duration="724000" />
+      <workItem from="1733806840183" duration="39000" />
+      <workItem from="1733808274005" duration="135000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
