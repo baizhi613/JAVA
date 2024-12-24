@@ -1,9 +1,6 @@
 package org.baizhi.mapper;
 
-import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Param;
-import org.apache.ibatis.annotations.Select;
-import org.apache.ibatis.annotations.Insert;
+import org.apache.ibatis.annotations.*;
 import org.baizhi.model.SeckillOrder;
 
 import java.util.List;
@@ -19,4 +16,7 @@ public interface OrderMapper {
 
     @Insert("INSERT INTO seckill_order (user_id, product_id, order_status) VALUES (#{userId}, #{productId}, #{orderStatus})")
     void insertOrder(SeckillOrder order);
+
+    @Delete("DELETE FROM seckill_order")
+    void deleteAllOrders();
 }

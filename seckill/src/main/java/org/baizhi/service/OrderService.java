@@ -9,4 +9,6 @@ public interface OrderService {
     void placeOrder(Long userId, Long productId) throws Exception;
 
     List<SeckillOrder> getAllOrders();
+
+    void deleteAllOrders();
 }

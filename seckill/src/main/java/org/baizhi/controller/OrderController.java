@@ -34,4 +34,14 @@ public class OrderController {
     public List<SeckillOrder> getAllOrders() {
         return orderService.getAllOrders();
     }
+
+    @DeleteMapping("/deleteall")
+    public String deleteAllOrders() {
+        try {
+            orderService.deleteAllOrders();
+            return "所有订单删除成功！";
+        } catch (Exception e) {
+            return "订单删除失败：" + e.getMessage();
+        }
+    }
 }

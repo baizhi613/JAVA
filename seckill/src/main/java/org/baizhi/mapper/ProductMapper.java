@@ -20,7 +20,7 @@ public interface ProductMapper {
     SeckillProduct getProductById(@Param("productId") Long productId);
 
     @Update("UPDATE seckill_product SET stock = stock - 1 WHERE id = #{productId} AND stock > 0")
-    void decreaseStock(@Param("productId") Long productId);
+    int decreaseStock(@Param("productId") Long productId);
 
     @Delete("DELETE FROM seckill_product WHERE id = #{productId}")
     void deleteProduct(Long productId);

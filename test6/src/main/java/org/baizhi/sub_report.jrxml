@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="sub_report" pageWidth="300" pageHeight="200" columnWidth="260" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="d9d1902c-67c0-4c36-8f6a-86d8d1c689c2">
+    <queryString>
+        <![CDATA[SELECT * FROM your_sub_table WHERE column1 = $P{parent_column1}]]>
+    </queryString>
+    <field name="sub_column1" class="java.lang.String"/>
+    <field name="sub_column2" class="java.lang.Integer"/>
+    <columnHeader>
+        <band height="30">
+            <textField>
+                <reportElement x="0" y="0" width="100" height="30"/>
+                <textFieldExpression><![CDATA["Sub Column 1"]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="100" y="0" width="100" height="30"/>
+                <textFieldExpression><![CDATA["Sub Column 2"]]></textFieldExpression>
+            </textField>
+        </band>
+    </columnHeader>
+    <detail>
+        <band height="30">
+            <textField>
+                <reportElement x="0" y="0" width="100" height="30"/>
+                <textFieldExpression><![CDATA[$F{sub_column1}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="100" y="0" width="100" height="30"/>
+                <textFieldExpression><![CDATA[$F{sub_column2}]]></textFieldExpression>
+            </textField>
+        </band>
+    </detail>
+</jasperReport>
