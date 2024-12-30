@@ -6,37 +6,45 @@
                 :default-active="route.path"
                 class="menu"
             >
-                <el-menu-item index="/">
+                <el-menu-item index="/home">
                     <el-icon><House /></el-icon>
                     <span>主页</span>
                 </el-menu-item>
-                <el-menu-item index="/products">
+                <el-menu-item index="/home/products">
                     <el-icon><Goods /></el-icon>
                     <span>商品管理</span>
                 </el-menu-item>
-                <el-menu-item index="/categories">
+                <el-menu-item index="/home/categories">
                     <el-icon><Files /></el-icon>
                     <span>分类管理</span>
                 </el-menu-item>
-                <el-menu-item index="/orders">
+                <el-menu-item index="/home/orders">
                     <el-icon><List /></el-icon>
                     <span>订单管理</span>
                 </el-menu-item>
-                <el-menu-item index="/suppliers">
+                <el-menu-item index="/home/suppliers">
                     <el-icon><Van /></el-icon>
                     <span>供应商管理</span>
                 </el-menu-item>
-                <el-menu-item index="/promotions">
+                <el-menu-item index="/home/promotions">
                     <el-icon><Discount /></el-icon>
                     <span>促销管理</span>
                 </el-menu-item>
-                <el-menu-item index="/users">
+                <el-menu-item index="/home/users">
                     <el-icon><User /></el-icon>
                     <span>用户管理</span>
                 </el-menu-item>
-                <el-menu-item index="/stock">
+                <el-menu-item index="/home/stock">
                     <el-icon><Box /></el-icon>
                     <span>库存管理</span>
+                </el-menu-item>
+                <el-menu-item index="/home/product-promotions">
+                    <el-icon><Promotion /></el-icon>
+                    <span>商品促销关系</span>
+                </el-menu-item>
+                <el-menu-item index="/home/product-suppliers">
+                    <el-icon><Connection /></el-icon>
+                    <span>商品供应商关系</span>
                 </el-menu-item>
             </el-menu>
         </el-aside>
@@ -69,7 +77,7 @@
 
 <script setup>
 import { useRoute, useRouter } from 'vue-router'
-import { House, Goods, Files, List, Van, Discount, User, Box, ArrowDown } from '@element-plus/icons-vue'
+import { House, Goods, Files, List, Van, Discount, User, Box, ArrowDown, Promotion, Connection } from '@element-plus/icons-vue'
 import { ElMessage } from 'element-plus'
 
 const route = useRoute()

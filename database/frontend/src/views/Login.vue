@@ -71,7 +71,7 @@ const handleLogin = () => {
                 // TODO: 调用登录 API
                 localStorage.setItem('token', 'your-token-here') // 保存token
                 ElMessage.success('登录成功')
-                router.push('/')
+                router.push('/home')
             } catch (error) {
                 ElMessage.error('登录失败：' + error.message)
             }

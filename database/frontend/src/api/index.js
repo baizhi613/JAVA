@@ -138,9 +138,22 @@ export const promotionApi = {
     delete: (id) => api.delete(`/promotions/${id}`)
 }
 
+// 商品促销关系接口
+export const productPromotionApi = {
+    getById: (id) => api.get(`/productPromotions/${id}`),
+    getAll: () => api.get('/productPromotions'),
+    getByProductId: (productId) => api.get(`/productPromotions/product/${productId}`),
+    getByPromotionId: (promotionId) => api.get(`/productPromotions/promotion/${promotionId}`),
+    create: (data) => api.post('/productPromotions', data),
+    delete: (id) => api.delete(`/productPromotions/${id}`),
+    deleteByProductId: (productId) => api.delete(`/productPromotions/product/${productId}`),
+    deleteByPromotionId: (promotionId) => api.delete(`/productPromotions/promotion/${promotionId}`)
+}
+
 // 商品供应商关系接口
 export const productSupplierApi = {
     getById: (id) => api.get(`/productSuppliers/${id}`),
+    getAll: () => api.get('/productSuppliers'),
     getByProductId: (productId) => api.get(`/productSuppliers/product/${productId}`),
     getBySupplierId: (supplierId) => api.get(`/productSuppliers/supplier/${supplierId}`),
     create: (data) => api.post('/productSuppliers', data),
@@ -148,17 +161,6 @@ export const productSupplierApi = {
     delete: (id) => api.delete(`/productSuppliers/${id}`),
     deleteByProductId: (productId) => api.delete(`/productSuppliers/product/${productId}`),
     deleteBySupplierId: (supplierId) => api.delete(`/productSuppliers/supplier/${supplierId}`)
-}
-
-// 商品促销关系接口
-export const productPromotionApi = {
-    getById: (id) => api.get(`/productPromotions/${id}`),
-    getByProductId: (productId) => api.get(`/productPromotions/product/${productId}`),
-    getByPromotionId: (promotionId) => api.get(`/productPromotions/promotion/${promotionId}`),
-    create: (data) => api.post('/productPromotions', data),
-    delete: (id) => api.delete(`/productPromotions/${id}`),
-    deleteByProductId: (productId) => api.delete(`/productPromotions/product/${productId}`),
-    deleteByPromotionId: (promotionId) => api.delete(`/productPromotions/promotion/${promotionId}`)
 }
 
 export default api 
